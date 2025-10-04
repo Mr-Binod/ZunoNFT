@@ -54,6 +54,8 @@ ZunoNFT는 블록체인에서 계정 추상화 erc4337 로직 사용해서 사�
 - 로그인 페이지 : 사용자가 회원가입하면 ERC4337로 wallet 생성해서 smart Account 생성 
 - 메인 페이지 :메인 페이지에서 사용자 정보 아이디, 공개키, 잔액 확인 및 NFT 구매 가능. 사용자가 토큰 발행하면 1000BTK 발행 및 nft 생성 기능
 - 마이 페이지 : 사용자의 정보, 소유하고 있는 NFT, 판매중이 NFT 확인하고 판매 NFT 취소 기능
+- 블록체인 : sepolia testnet에서 erc 1155, erc 20 로직을 사용해서 토큰 발급이나 nft 생성및 거래 기능
+- aws : 배포 백엔드 aws 에서 배포하면 프론트엔드는 vercel 사용해서 배포했습니다.
 
 ## API 문서 
 
@@ -151,6 +153,9 @@ test & contract deployment
 - cursor
 - chatgpt
 - gemini
+
+#### deployment
+- aws
 
 # 회고 로그 
 <!-- - 프로젝트 목표, 계획, 구현, 유지보수, 회고 -->
