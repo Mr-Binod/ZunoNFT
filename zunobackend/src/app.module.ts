@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 // import { ModelModule } from './model/model.module';
 // import { SequelizeModule } from '@nestjs/sequelize';
 import { AccountModule } from './account/account.module';
-import { ConfigModule } from '@nestjs/config';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SmartAccInfoEntity } from './account/entities/account.entity';
 import { BundlerModule } from './bundler/bundler.module';
@@ -57,3 +57,4 @@ import { UserNftEntity } from './contracts/entities/user-nft.entity';
 export class AppModule { }
 
   
+
